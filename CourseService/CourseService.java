@@ -299,11 +299,15 @@ public class CourseService {
 
                 myCourses = myCourses(studentID);
                 int credits = 0;
-
+                for (Course course : myCourses) {
+                    credits += course.getCredits();
+                }
+                /* Alternatively we can use i++ increment to iterate the loop
                 for (int i = 0; i < myCourses.size(); i++) {
                     int additionalCredits = myCourses.get(i).getCredits();
                     credits = credits + additionalCredits;
                 }
+                */
 
                 System.out.println("Course Enrollment Credits:");
                 System.out.println(String.format("[ Student ID: %s, Total Course Credits: %d ]", studentID, credits));
