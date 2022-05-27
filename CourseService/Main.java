@@ -1,10 +1,8 @@
 package CompositionClass.CourseService;
 
+//JFSD Class Practice
 //Exercise 3: A Course Service “has’ Courses and Students. A Student “has’ Enrolled Courses.
-//README: https://docs.google.com/document/d/1hCjb3Q1Bqh7fP0USPvN7o6p_R7G0YztV/edit#heading=h.tyjcwt
-
 //Java Collections and Class Challenge Practice
-//README: https://docs.google.com/document/d/1tc8HVrXXSDEUO3dtecDnhQPZA-dc-af9/edit#
 
 public class Main {
 
